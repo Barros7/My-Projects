@@ -2,40 +2,36 @@
 <html lang ="pt">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/app.css">
+        <link rel="stylesheet" href="assets/css/main.css">
         <title>V.Bongo Consprojeto</title>
     </head>
     <body>
         <header>
             <!-- NavBar -->
-            <nav class = "flex-container menu">
-                <div>
-                    <h1>V.Bongo Consprojeto</h1>
-                </div>
+            <nav id = "menu" class = "flex-container menu">
                 <ul class = "list-items">
                     <li><a href="#">Home</a></li>
                     <li><a href="#Empresa">Empresa</a></li>
                     <li><a href="#QuemSomo">Quem Somos</a></li> 
                     <li><a href="#Servicos">Serviços</a></li> 
-                    <li><a href="#Contatos">Projetos</a></li> 
+                    <li><a href="#Projetos">Projetos</a></li> 
                 </ul>
             </nav>
         </header>
-        <br><br><br><br><br><br><br>
         <!-- Main -->
         <main>
-            <section class = "flex-container">
-                <div class="texto-empresa">
-                    <h4>V.Bongo <br/> Consprojeto</h4>
-                    <p>O melhor serviço para você.</p>
-                    <a href="">Saiba mais</a>
-                </div>
-                <div>
-                    <img src="assets/images/quem-somos.jpg" >
-                </div>
-            </section>
-            <br><br><br><br><br><br><br>
+            <section class="conteiner-empresa">  
+                   <div id = "info" class="info">
+                       <div class="texto-empresa">
+                        <h2>Wecome to <span>v.Bongo Consprojeto</span></h2>
+                        <p>O melhor serviço para você.</p>
+                        <a href="">Saiba mais</a>
+                    </div>
+                    
+                    </div>
+            </section>  
             <!-- Empresas -->
             <section class = "flex-container">
                 <div class="texto-empresa">
@@ -46,14 +42,11 @@
                     <img src="assets/images/quem-somos.jpg" >
                 </div>
             </section>
-            <br><br><br><br><br><br><br>
             <!-- Serviços -->
             <section class = "flex-container-quem-somos" id="quem-somos">
                 <div class="texto-empresa">
                     <h4>Quem Somos</h4>
                     <p>O melhor serviço para você.O melhor serviço para você.O melhor serviço para você.
-                        O melhor serviço para você.O melhor serviço para você.O melhor serviço para você.
-                        O melhor serviço para você.O melhor serviço para você.O melhor serviço para você.
                         O melhor serviço para você.O melhor serviço para você.O melhor serviço para você.
                         O melhor serviço para você.O melhor serviço para você.O melhor serviço para você.
                         O melhor serviço para você.O melhor serviço para você.O melhor serviço para você.
@@ -65,7 +58,7 @@
                     <img src="assets/images/quem-somos.jpg" >
                 </div>
             </section>    
-            <br><br><br><br><br><br><br>
+            <br>
             <!-- Contatos -->
             <section class="conteiner-externo" id="servicos">
                 <div class = "flex-container">
@@ -91,22 +84,53 @@
                     </div>
                 </div>
             </section>
-            <section class = "flex-container">
-                <div class="texto-empresa">
-                    <h4>Projetos</h4>
-                    <p>O melhor serviço para você.</p>
-                </div>
-                <div>
-                    <img src="assets/images/" >
-                </div>
+            <section class="conteiner-projetos">
+                <section class = "flex-container">
+                    <div class="texto-empresa">
+                        <h4>Projetos</h4>
+                        <p>O melhor serviço para você.</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/" >
+                    </div>
+                </section>
             </section>
         </main>
         <!-- Footer-->
         <footer>
-            <div>Footer</div>   
-        </footer>
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/popper.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
+            <div class="container">
+                <h2>v.Bongo Consprojeto</h2>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                <br>
+                <br>
+                <div class = "social-links">
+                    <a href="#" class = "facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class = "twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class = "instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class = "skype">
+                        <i class="fab fa-skype"></i>
+                    </a>
+                    <a href="#" class = "linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <br>
+                <br>                
+                <div class = "copyright">
+                    &copy; 2021 José Bongo
+                </div>
+                <div class = "credits">
+
+                </div>
+            </div> 
+            <br>
+            <br>  
+        </footer id = "footer">
     </body>
 </html>
